@@ -1,8 +1,8 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { Button } from "app/components/ui/button";
 import logo from "@/assets/logo.svg";
 
-export const Route = createFileRoute("/")({
+export const Route = createFileRoute("/(app)/")({
   component: Home,
 });
 
@@ -38,6 +38,9 @@ function Home() {
             </a>
           </Button>
         </div>
+        <Link to="/about" className="mt-8 underline">
+          about
+        </Link>
       </header>
     </div>
   );
