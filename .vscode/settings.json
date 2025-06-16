@@ -30,7 +30,7 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "vite.config.*": "jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*, tsconfig.json",
-    "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .prettier*, prettier*, .editorconfig, .gitattributes, bun.lock, biome.json"
+    "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .prettier*, prettier*, .editorconfig, .gitattributes, bun.lock, biome.json, components.json"
   },
 
   "typescript.tsdk": "./node_modules/typescript/lib"

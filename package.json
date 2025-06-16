@@ -9,16 +9,22 @@
   "scripts": {
     "format": "biome format --write",
     "lint": "biome lint",
+    "ui": "pnpm dlx shadcn@latest",
     "dev": "vite dev",
     "build": "vite build"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/vite": "^4.1.10",
     "@tanstack/react-query": "^5.80.7",
     "@tanstack/react-router": "^1.121.16",
     "@tanstack/react-start": "^1.121.16",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.515.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.10",
     "vite": "^6.3.5"
   },
@@ -26,6 +32,7 @@
     "@biomejs/biome": "^1.9.4",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
+    "tw-animate-css": "^1.3.4",
     "typescript": "^5.8.3",
     "vite-tsconfig-paths": "^5.1.4"
   }

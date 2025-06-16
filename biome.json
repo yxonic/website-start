@@ -11,8 +11,10 @@
       "*-lock.json",
       "*-lock.yaml",
       "*.gen.ts",
-      "app/components/ui",
-      ".output"
+      "src/components/ui",
+      ".nitro",
+      ".output",
+      ".tanstack"
     ]
   },
   "formatter": {
