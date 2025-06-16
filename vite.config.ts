@@ -11,7 +11,24 @@ export default defineConfig({
     tsConfigPaths({
       projects: ["./tsconfig.json"],
     }),
-    tanstackStart(),
+    tanstackStart({
+      tsr: {
+        quoteStyle: "double",
+        semicolons: true,
+      },
+      react: {
+        babel: {
+          plugins: [
+            [
+              "babel-plugin-react-compiler",
+              {
+                target: "19",
+              },
+            ],
+          ],
+        },
+      },
+    }),
     tailwindcss(),
   ],
 });
