@@ -1,0 +1,37 @@
+{
+  "editor.tabSize": 2,
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "files.eol": "\n",
+
+  "[json][jsonc][typescript][typescriptreact][javascript][javascriptreact][html][css]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+
+  "files.readonlyInclude": {
+    "**/routeTree.gen.ts": true,
+    "**/.tanstack/**/*": true,
+    "pnpm-lock.yaml": true,
+    "bun.lock": true
+  },
+  "files.watcherExclude": {
+    "**/routeTree.gen.ts": true,
+    "**/.tanstack/**/*": true,
+    "pnpm-lock.yaml": true,
+    "bun.lock": true
+  },
+  "search.exclude": {
+    "**/routeTree.gen.ts": true,
+    "**/.tanstack/**/*": true,
+    "pnpm-lock.yaml": true,
+    "bun.lock": true
+  },
+
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "vite.config.*": "jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*, tsconfig.json",
+    "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .prettier*, prettier*, .editorconfig, .gitattributes, bun.lock, biome.json"
+  },
+
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}
