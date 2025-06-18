@@ -1,8 +1,12 @@
 {
   "editor.tabSize": 2,
+  "files.eol": "\n",
   "files.autoSave": "onFocusChange",
   "editor.formatOnSave": true,
-  "files.eol": "\n",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.biome": "explicit",
+    "source.fixAll.biome": "explicit"
+  },
 
   "[json][jsonc][typescript][typescriptreact][javascript][javascriptreact][html][css]": {
     "editor.defaultFormatter": "biomejs.biome"
